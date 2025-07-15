@@ -1,0 +1,4 @@
+Line 14, Char 12: Incorrect use of blocking assignment (=)
+Line 21, Char 24: Incorrect use of non-blocking assignment (<=)
+Line 25, Char 21: Incorrect use of non-blocking assignment (<=)
+Line 27, Char 21: Incorrect use of non-blocking assignment (<=)
