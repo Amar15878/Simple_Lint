@@ -1,3 +1,4 @@
+# Simple Lint Script
 *This is a simple python script to check systemverilog file (mainly dut) for potential assignment misuse.*
 
 Feature : 
