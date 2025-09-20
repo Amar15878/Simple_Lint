@@ -1,6 +1,6 @@
 Simple_Lint Violation Report
-File: dut/dut_test_example.v
-Date: 2025-09-20 07:45:56
+File: dut/dut_test_example.sv
+Date: 2025-09-20 07:53:19
 Total Lint Violations: 6
 
 --------------------------------------------------------------------------------
