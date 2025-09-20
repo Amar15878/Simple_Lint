@@ -2,10 +2,12 @@
 *This is a simple python script to check systemverilog file (mainly dut) for potential assignment misuse.*
 
 Feature : 
-
-+ Able to identify misuse of blocking or non-blocking assignemnt in blocks (be it procedural, combinational or other).
-
-+ For now supports identification of always_comb and always_ff keyword for the lint check (NOTE : not fool-proof yet).
++ Detects assignment misuse (blocking vs. non-blocking) in always and assign blocks
++ Checks for missing 'default' in case statements
++ Checks for improper genvar usage in generate loops
++ Reports violations with line and character precision
++ Generates structured, human-readable reports for fast debugging
++ Modular checker design for easy extensibility
 
 
 # Run
