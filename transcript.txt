@@ -1,4 +1,31 @@
-Line 14, Char 12: Incorrect use of blocking assignment (=)
-Line 21, Char 24: Incorrect use of non-blocking assignment (<=)
-Line 25, Char 21: Incorrect use of non-blocking assignment (<=)
-Line 27, Char 21: Incorrect use of non-blocking assignment (<=)
+Simple_Lint Violation Report
+File: dut/dut_test_example.v
+Date: 2025-09-20 07:45:56
+Total Lint Violations: 6
+
+--------------------------------------------------------------------------------
+Line 24, Char 1 | [Case Statement] | WARNING
+Missing 'default' case in case statement.
+	---> HINT: Add a 'default' branch to your case statement.
+
+Line 41, Char 12 | [Genvar Usage] | WARNING
+Loop variable 'j' in generate for-loop is not declared as genvar.
+	---> HINT: Declare 'j' as a genvar before using in generate for-loops.
+
+Line 48, Char 12 | [Blocking/Non-blocking Assignment] | WARNING
+Incorrect use of blocking assignment (=) 
+	---> HINT: Try Using non-blocking assignment (<=) instead.
+
+Line 55, Char 24 | [Blocking/Non-blocking Assignment] | WARNING
+Incorrect use of non-blocking assignment (<=) 
+	---> HINT: Try Using blocking assignment (=) instead.
+
+Line 59, Char 21 | [Blocking/Non-blocking Assignment] | WARNING
+Incorrect use of non-blocking assignment (<=) 
+	---> HINT: Try Using blocking assignment (=) instead.
+
+Line 61, Char 21 | [Blocking/Non-blocking Assignment] | WARNING
+Incorrect use of non-blocking assignment (<=) 
+	---> HINT: Try Using blocking assignment (=) instead.
+
+--------------------------------------------------------------------------------

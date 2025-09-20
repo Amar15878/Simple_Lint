@@ -7,3 +7,6 @@ Feature :
 
 + For now supports identification of always_comb and always_ff keyword for the lint check (NOTE : not fool-proof yet).
 
+
+# Run
++ ..\Simple_Lint> python -m Script.simple_lint dut/dut_test_example.v
